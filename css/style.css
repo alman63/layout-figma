@@ -45,18 +45,19 @@ body {
 
 .logo {
   position: relative;
-  height: 100vh;
+  min-height: 600px;
+  max-height: 1200px;
 }
 .logo-box {
   position: absolute;
-  top: 55%;
+  top: 46%;
   left: 2%;
 }
 .logo__h2 {
   font-weight: 400;
   color: #ffffff;
-  font-size: 2.3rem;
-  line-height: 1.3;
+  font-size: 2.5rem;
+  line-height: 1.2;
 }
 .logo__h3 {
   font-weight: 400;
@@ -67,4 +68,14 @@ body {
 }
 .logo__img {
   object-fit: cover;
+}
+.logo__p {
+  font-family: "Open Sans", serif;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 12%;
 }
