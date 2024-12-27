@@ -153,3 +153,58 @@ body {
 }
 
 /* end clients section */
+
+/* blog section */
+.blog {
+  background-color: #ffffff;
+  color: #151618;
+}
+.blog__h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding-top: 44px;
+  padding-bottom: 61px;
+}
+.blog__wrap-item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.blog__item {
+  display: flex;
+}
+.blog__item-descrition {
+  position: relative;
+  padding-left: 20px;
+}
+.blog__h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.blog__p {
+  font-family: "Open Sans", serif;
+  font-weight: 300;
+  font-size: 0.8125rem;
+  padding-top: 11px;
+}
+.blog__a {
+  position: absolute;
+  cursor: pointer;
+  left: 20px;
+  bottom: 0;
+  text-decoration: none;
+  color: #151618;
+}
+
+.blog__btn {
+  font-family: "Open Sans", serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  background-color: #ffffff;
+  padding: 10px 40px 10px 40px;
+  border: #151618 solid 1px;
+  display: block;
+  margin: 61px auto;
+}
+/* end blog section */
