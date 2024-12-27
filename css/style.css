@@ -10,17 +10,19 @@
 }
 
 body {
-  font-family: "Cormorant", sans-serif;
   background-color: #ffffff;
-  font-weight: 400;
   font-style: normal;
   font-size: 1rem;
   max-width: 480px;
   margin: 0 auto;
 }
 .section {
+  font-family: "Cormorant", sans-serif;
+  font-weight: 400;
+  color: #151618;
   min-height: 600px;
   max-height: 1200px;
+  padding: 0 10px 0 10px;
 }
 /* header */
 
@@ -82,6 +84,7 @@ body {
   margin: 0 auto;
   padding-top: 12%;
   color: #151618;
+  line-height: 1.4;
 }
 
 /* end logo section */
@@ -92,13 +95,9 @@ body {
   background-color: #ffffff;
 }
 .collection__h2 {
-  font-family: "Cormorant", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 2.5rem;
   text-align: center;
-  color: #151618;
-  margin-top: 13%;
+  padding-top: 13%;
 }
 .collection__wrap-item {
   display: flex;
@@ -108,10 +107,49 @@ body {
 }
 .collection__h3 {
   text-align: center;
-  font-family: "Cormorant", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
-  color: #151618;
   padding-top: 3%;
 }
 /*  end collection section */
+
+/* clients section */
+.clients {
+  background-color: #f7f2ea;
+  margin-top: 13%;
+}
+.clients__h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 47px;
+  padding-bottom: 28px;
+}
+.clients__wrap-article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 18px;
+}
+.clients__article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 220px;
+  padding-top: 22px;
+}
+.article__p {
+  font-family: "Open Sans", serif;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.35;
+}
+.article_cite {
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* end clients section */
